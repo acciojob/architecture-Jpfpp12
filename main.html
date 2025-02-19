@@ -1,15 +1,125 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architecture Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General Page Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d3d8cf;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 1100px;
+            margin: 0 auto;
+            background: #e0e4d4;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Header Image */
+        .header-image img {
+            width: 100%;
+            max-width: 1100px;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #ced3c1;
+        }
+
+        td {
+            border: 1px solid #a9a9a9;
+            padding: 15px;
+            text-align: center;
+            vertical-align: top;
+        }
+
+        /* Image Styling */
+        .side-image {
+            width: 180px;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .middle-column {
+            width: 600px;
+            padding: 20px;
+            text-align: left;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .bold-text {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .learn-more {
+            font-size: 14px;
+            color: blue;
+            text-decoration: none;
+        }
+    </style>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <div class="container">
+        <!-- Header Image -->
+        <div class="header-image">
+            <img src="architecture-main.jpg" alt="Architecture Design">
+        </div>
+
+        <!-- Table Structure -->
+        <table>
+            <tr>
+                <td><img src="architecture1.jpg" alt="Side Image" class="side-image"></td>
+                <td class="middle-column">
+                    <p>Unit #5 - Floor Plans</p>
+                    <p>A. Kitchen</p>
+                    <p>B. Bathroom</p>
+                    <p>C. Using "Slabs"</p>
+                    <p>D. Georgian Home</p>
+                    <p>E. Sketching Assignment #5</p>
+                </td>
+                <td><img src="architecture2.jpg" alt="Side Image" class="side-image"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <p class="bold-text">HousePlans.com</p>
+                    <p>The largest source for quality affordable ready-made house plans. A great place to surf for space planning ideas.</p>
+                    <a href="#" class="learn-more">learn more</a>
+                </td>
+
+                <td class="middle-column">
+                    <p class="bold-text">Objective</p>
+                    <p>Discuss factors that are important in the design of bedrooms. Plan the size and location of closets for a typical residence.</p>
+                    <p>Plan a furniture arrangement for a room. Implement important design considerations for bathrooms. Plan a bathroom that follows solid design principles.</p>
+                    <p>Plan the service area of a home by applying good design principles.</p>
+                </td>
+
+                <td>
+                    <p class="bold-text">Green Floor</p>
+                    <p>FreeGreen.com offers both sponsored and non-sponsored floor plans. Their goal is to provide consumers with free solutions to their green architectural needs.</p>
+                    <a href="#" class="learn-more">learn more</a>
+                </td>
+            </tr>
+        </table>
+    </div>
 
 </body>
 
